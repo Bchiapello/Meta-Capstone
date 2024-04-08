@@ -1,0 +1,15 @@
+*{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+#root{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "header"
+  "main"
+  "footer";
+  justify-content: center;
+}

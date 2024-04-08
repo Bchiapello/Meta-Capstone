@@ -1,0 +1,38 @@
+
+.footer-div{
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 20px 5%;
+  background-color: #EDEFEE;
+}
+
+.footerphoto{
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.footeruls{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.footeruls h3{
+  margin: 1px;
+}
+
+.footer-div ul {
+  list-style-type: none;
+  align-items: center;
+}
+
+
+.footer-div li {
+  padding: 10px;
+}
+
+.footer-div a {
+  text-decoration: none;
+}

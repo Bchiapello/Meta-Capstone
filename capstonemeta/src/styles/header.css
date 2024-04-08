@@ -1,0 +1,53 @@
+.header-div{
+  background-color: #495E57;
+  margin: 10px 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  max-width: 1200px;
+  height: 400px;
+  grid-area: header;
+}
+
+.header-div-text{
+  height: 280px;
+}
+
+
+.header-div h1{
+  font-size: 64px;
+  font-family: "Markazi Text", serif;
+  color: #F4CE14;
+}
+
+.header-div h2{
+  font-size: 40px;
+  font-family: "Markazi Text", serif;
+  color: #EDEFEE;
+  margin-top: -15px;
+}
+
+.header-p{
+  width: 300px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.header-div button{
+  background-color: #F4CE14;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 10px ;
+  margin: 10px 0;
+}
+
+.header-div img {
+  height: 350px;
+  border-radius: 16px;
+  margin-top: 60px;
+  position: relative;
+  top: 40px;
+}

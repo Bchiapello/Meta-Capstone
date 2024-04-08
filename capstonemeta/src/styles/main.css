@@ -1,0 +1,94 @@
+.Main-div{
+  grid-area: main;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 3fr ;
+}
+
+.weekspecialcontainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.weekspecial{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.weekspecial h2{
+  margin: 0;
+}
+
+.weekspecial button{
+  background-color: #F4CE14;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 10px ;
+  margin: 10px 0;
+}
+.weekspecialcardscontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 5% 0 5%;
+}
+
+.weekspecialcardcontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+  background-color: #EDEFEE;
+    border-radius: 16px;
+}
+.cardimgcontainer img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.cardinfo{
+  margin: 10px;
+}
+
+.cardtittleprice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Karla', 'sans serif';
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardinfo p {
+  font-family: 'Karla', 'sans serif';
+  font-size: 16px;
+}
+
+.cardinfo button {
+  font-family: 'Karla', 'sans serif';
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.cardinfobutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardinfo svg {
+  margin: 5px;
+}
+
+.weekspecial h2 {
+  font-size: 64px;
+  font-family: "Markazi Text", serif;
+}
+

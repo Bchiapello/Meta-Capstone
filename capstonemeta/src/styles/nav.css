@@ -1,0 +1,24 @@
+.nav-div{
+  grid-area: nav;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.nav-div img {
+  max-height: 80px;
+}
+
+.nav-ul {
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+
+.nav-li {
+  padding: 10px;
+  }
+
+.nav-a {
+  text-decoration: none;
+}

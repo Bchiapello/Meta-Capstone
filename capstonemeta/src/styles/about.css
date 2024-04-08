@@ -1,0 +1,52 @@
+.aboutdivcontainer {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 2fr 1fr;
+  height: 310px;
+  margin: 80px 5% 0 5%;
+}
+
+.abouttextcontainer{
+  width: 90%;
+  margin: auto 0;
+}
+
+.abouttextcontainer h2{
+  font-size: 40px;
+  font-family: "Markazi Text", serif;
+
+}
+
+.abouttextcontainer h3{
+  font-size: 18px;
+  font-family: "Markazi Text", serif;
+
+}
+
+.abouttextcontainer p{
+  padding: 10px 0;
+  font-family: 'Karla', 'sans serif';
+  font-size: 16px;
+}
+
+
+.aboutphoto img{
+  width: 200px;
+  position: relative;
+  border-radius: 16px;
+}
+
+/*restaurant*/
+.aboutphoto1{
+  height: 250px;
+  z-index: 2;
+  left: 100px;
+}
+
+/*limon*/
+.aboutphoto2{
+  bottom: 120px;
+  height: 250px;
+  z-index: 1;
+
+}
