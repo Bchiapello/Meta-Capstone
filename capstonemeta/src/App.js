@@ -1,17 +1,23 @@
+import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
+import OrderOnline from './pages/OrderOnline';
 import './styles/App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import {BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom' ;
 
 
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+      <>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />}/>
+          <Route path='/about-me' element={<AboutPage />}/>
+          <Route path='/orderonline' element={<OrderOnline />}/>
+          <Route path='*' element={<Home />}/>
+        </Routes>
+      </BrowserRouter>
+      </>
   );
 }
 

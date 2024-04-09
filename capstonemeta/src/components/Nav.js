@@ -1,20 +1,27 @@
 import React from 'react';
 import '../styles/nav.css';
+import {Routes, Route, Link} from 'react-router-dom';
 
 function Nav() {
   return (
     <div className='nav-div'>
       <img alt='Logo' src={require('../assets/title.jpg')}/>
       <ul className='nav-ul'>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>Home</a></li>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>About</a></li>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>Menu</a></li>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>Reservations</a></li>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>Order online</a></li>
-        <li className='nav-li'><a className='nav-a' href='http://google.com'>Log in</a></li>
+        <li className='nav-li'><Link to='/'>Home</Link></li>
+        <li className='nav-li'><Link to='/about-me'>About Me</Link></li>
+        <li className='nav-li'><Link to='/Menu'>Menu</Link></li>
+        <li className='nav-li'><Link to='/Reservations'>Reservations</Link></li>
+        <li className='nav-li'><Link to='/OrderOnline'>Order online</Link></li>
+        <li className='nav-li'><Link to='/LogIn'>Log in</Link></li>
       </ul>
     </div>
   )
 }
 
 export default Nav
+
+
+/* <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='/about-me' element={<App />} />
+      </Routes>*/

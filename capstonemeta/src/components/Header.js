@@ -1,12 +1,10 @@
 import HeaderPhoto from "./HeaderPhoto";
-import Nav from "./Nav";
 import '../styles/header.css';
 
 
 function Header() {
   return (
     <>
-      <Nav />
       <div className='header-div'>
         <div className='header-div-text'>
           <h1>Little Lemon</h1>

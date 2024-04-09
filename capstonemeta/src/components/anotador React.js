@@ -494,16 +494,20 @@ React Router
 
 function App(){
 	return(
-<div>
-	<nav>
-		<Link to='/'>HomePage</Link>
-		<Link to='/about-me'>About Me</Link>
-	</nav>
-	<Routes>
-		<Route path='/' element={<HomepageComponente/>} />
-		<Route path='/about-me' element={<AboutMeComponente/>} />
-	</Routes>
-</div>
+<Router>
+	<div>
+		<Switch>
+		<nav>
+			<Link to='/'>HomePage</Link>
+			<Link to='/about-me'>About Me</Link>
+		</nav>
+		<Routes>
+			<Route path='/' element={<HomepageComponente/>} />
+			<Route path='/about-me' element={<AboutMeComponente/>} />
+		</Routes>
+		</Switch>
+	</div>
+</Router>
 )}
 
 //En la APP principal, se reemplazan las tags 'a' por <Link> dentro del NAV y luego, por separado, dentro de ROUTES se agregan inidividualmente las ROUTE.
