@@ -1,5 +1,6 @@
 import HeaderPhoto from "./HeaderPhoto";
 import '../styles/header.css';
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -9,8 +10,8 @@ function Header() {
         <div className='header-div-text'>
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
-          <p className='header-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button>Reserve a table</button>
+          <p className='header-p'>We are a family owned Mediterranean restaurant, focused on traditional recipies served with a modern twist.</p>
+          <Link to="/booking"><button aria-label="On Click">Reserve a table</button></Link>
         </div>
         <HeaderPhoto />
       </div>

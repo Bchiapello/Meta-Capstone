@@ -4,8 +4,6 @@ import Main from '../components/Main.js';
 import Footer from '../components/Footer.js';
 
 
-
-
 function Home(){
   return(
     <>

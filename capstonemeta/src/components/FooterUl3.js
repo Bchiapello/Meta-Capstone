@@ -5,9 +5,9 @@ function FooterUl3() {
     <div>
     <h3>Social Media Links</h3>
     <ul>
-      <li><a href='http://google.com'>Address</a></li>
-      <li><a href='http://google.com'>Phone Number</a></li>
-      <li><a href='http://google.com'>Email</a></li>
+      <li><a href="/">Facebook</a></li>
+      <li><a href="/">Instagram</a></li>
+      <li><a href="/">Threads</a></li>
     </ul>
   </div>
   )

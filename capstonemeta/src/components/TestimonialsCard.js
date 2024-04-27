@@ -2,6 +2,10 @@ import React from 'react';
 import "../styles/testimonials.css";
 import { IoStarSharp } from "react-icons/io5";
 
+
+
+
+
 function TestimonialsCard(props) {
   return (
     <div className='testimonialcardcontainer'>

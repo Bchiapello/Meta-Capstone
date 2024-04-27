@@ -5,12 +5,13 @@ function FooterUl1() {
     <div>
       <h3>Doormat Navigation</h3>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservations</li>
-        <li>Order Online</li>
-        <li>Log In</li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/">Menu</a></li>
+        <li><a href="/">Reservations</a></li>
+        <li><a href="/">Order Online</a></li>
+        <li><a href="/">Log In</a></li>
       </ul>
     </div>
   )

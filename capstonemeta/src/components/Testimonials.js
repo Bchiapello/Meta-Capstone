@@ -1,6 +1,42 @@
 import React from 'react'
 import TestimonialsCard from './TestimonialsCard'
 import "../styles/testimonials.css";
+import customer1Image from '../assets/client1.jpg';
+import customer2Image from '../assets/client2.jpg';
+import customer3Image from '../assets/client3.jpg';
+import customer4Image from '../assets/client4.jpg';
+
+
+const testimonials  = [
+  {
+    fullName: 'Maria Sanchez',
+    image: customer1Image,
+    rating: [1, 1, 1, 1, 0.5],
+    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+  {
+    fullName: 'Antony Clifton',
+    image: customer2Image,
+    rating: [1, 1, 1, 1, 1],
+    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+  {
+    fullName: 'Tamika Jackson',
+    image: customer3Image,
+    rating: [1, 1, 1, 1, 0.5],
+    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+  {
+    fullName: 'Brandon Ming',
+    image: customer4Image,
+    rating: [1, 1, 1, 1],
+    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+  },
+];
 
 function Testimonials() {
   return (
@@ -10,10 +46,10 @@ function Testimonials() {
           <h2>Testimonials</h2>
         </div>
         <div className='testimonial-container'>
-            <TestimonialsCard rating='5' name='Bruno' review='This place is amazing' />
-            <TestimonialsCard rating='4' name='Emma' review='Good place'  />
-            <TestimonialsCard rating='5' name='Julius' review="I'll give it 5 out 5"  />
-            <TestimonialsCard rating='3' name='Brave' review='Not so good'  />
+
+        {testimonials.map((testimony, index) =>
+        <TestimonialsCard key={index} testimonials={testimony} />)}
+
         </div>
       </div>
     </>

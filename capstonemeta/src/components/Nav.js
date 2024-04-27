@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/nav.css';
-import {Routes, Route, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -20,8 +20,3 @@ function Nav() {
 
 export default Nav
 
-
-/* <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/about-me' element={<App />} />
-      </Routes>*/

@@ -1,0 +1,52 @@
+.formcontainer {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+  width: 100vw;
+}
+
+.formh3 {
+  font-size: 40px;
+  font-family: 'Karla', 'sans serif';
+}
+.formcontainer fieldset{
+  margin: 10px;
+  border: none;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field input, .field textarea {
+  width: 250px;
+  padding: 2px;
+  font-family: 'Karla';
+}
+
+.field .options {
+  width: 250px;
+  font-family: 'Karla';
+}
+
+.field label{
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Karla';
+}
+
+
+
+.field textarea {
+  height: 100px;
+}
+
+.field button {
+  height: 30px;
+  width: 100px;
+  margin: 10px ;
+  font-size: 16px;
+  font-family: 'Karla';
+}
