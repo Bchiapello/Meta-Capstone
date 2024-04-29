@@ -5,6 +5,11 @@
   grid-template-rows: 3fr ;
 }
 
+.weekspecial h2 {
+  font-size: 64px;
+  font-family: "Markazi Text", serif;
+}
+
 .weekspecialcontainer{
   display: flex;
   flex-direction: column;
@@ -26,6 +31,7 @@
   background-color: #F4CE14;
   font-family: "Karla", sans-serif;
   font-size: 18px;
+  border-radius: 16px;
   padding: 10px ;
   margin: 10px 0;
 }
@@ -40,12 +46,16 @@
   flex-direction: column;
   margin: 0 2%;
   background-color: #EDEFEE;
-    border-radius: 16px;
-}
-.cardimgcontainer img {
-  width: 100%;
   border-radius: 16px;
 }
+
+.cardimgcontainer img {
+  height: 200px;
+  border-radius: 16px;
+}
+
+.carddescription{
+height: 120px;}
 
 .cardinfo{
   margin: 10px;
@@ -65,9 +75,16 @@
   font-size: 16px;
 }
 
+.cardinfobutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .cardinfo button {
   font-family: 'Karla', 'sans serif';
   font-size: 18px;
+  border-radius: 16px;
   font-weight: bold;
   margin: 10px;
   padding: 10px;
@@ -75,20 +92,17 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  background-color: #F4CE14;
+  
 }
 
-.cardinfobutton{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.cardinfo button:hover {
+  background-color:  #495E57;
+  color: #F4CE14;
+  transition: 0.5s all ease;
 }
 
 .cardinfo svg {
   margin: 5px;
-}
-
-.weekspecial h2 {
-  font-size: 64px;
-  font-family: "Markazi Text", serif;
 }
 

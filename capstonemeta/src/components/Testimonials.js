@@ -11,29 +11,29 @@ const testimonials  = [
   {
     fullName: 'Maria Sanchez',
     image: customer1Image,
-    rating: [1, 1, 1, 1, 0.5],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    rating: [4.5],
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     fullName: 'Antony Clifton',
     image: customer2Image,
-    rating: [1, 1, 1, 1, 1],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    rating: [3],
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     fullName: 'Tamika Jackson',
     image: customer3Image,
-    rating: [1, 1, 1, 1, 0.5],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    rating: [4.5],
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     fullName: 'Brandon Ming',
     image: customer4Image,
-    rating: [1, 1, 1, 1],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    rating: [4],
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
 ];

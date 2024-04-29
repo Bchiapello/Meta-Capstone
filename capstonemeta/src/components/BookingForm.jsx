@@ -1,8 +1,10 @@
 import {React, useState} from 'react';
 import '../styles/bookingform.css';
+/*
+https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js
+*/
 
-
-function BookingForm2({ availableTimes, updateTimes }) {
+function BookingForm({ availableTimes, updateTimes }) {
   
   const [formData, setFormData] = useState({
     name: "",
@@ -106,7 +108,7 @@ function BookingForm2({ availableTimes, updateTimes }) {
               <option value="anniversary">Anniversary</option>
             </select></label>
 
-            <button type="submit" >Reserve</button>
+            <button type="submit" >Book Now</button>
    
           </div>
         </fieldset>
@@ -121,4 +123,4 @@ function BookingForm2({ availableTimes, updateTimes }) {
   );
 }
 
-export default BookingForm2
+export default BookingForm

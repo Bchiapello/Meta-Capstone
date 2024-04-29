@@ -12,7 +12,7 @@ function WeekSpecialsCard({ meal }) {
   <div className='cardtittleprice cardinfo'>
     <h3>{meal.name}</h3> <p>{meal.price}</p>
   </div>
-  <div className='cardinfo'>
+  <div className='cardinfo carddescription'>
     <p>{meal.description}</p>
   </div>
   <div className='cardinfo cardinfobutton '>

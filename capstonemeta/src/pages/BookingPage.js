@@ -1,7 +1,7 @@
 import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../styles/bookingform.css';
-import BookingForm2 from '../components/BookingForm2.js';
+import BookingForm from '../components/BookingForm.jsx';
 import BookingList from '../components/BookingList.js';
 import { useState, useReducer, useEffect } from 'react';
 
@@ -12,7 +12,7 @@ function reducer(state, action) {
   switch (action.type) {
     case INITIALIZE_TIMES:
     case UPDATE_TIMES:
-      return action.payload; 
+      return [...state, ...action.payload];
     default:
       return state;
   }
@@ -46,7 +46,7 @@ export default function BookingPage() {
     <Nav />
     <Footer />
 
-    <BookingForm2 
+    <BookingForm 
     availableTimes={availableTimes}  
     updateTimes={updateTimes} />
 

@@ -10,7 +10,7 @@ function Nav() {
         <li className='nav-li'><Link to='/'>Home</Link></li>
         <li className='nav-li'><Link to='/about-me'>About Me</Link></li>
         <li className='nav-li'><Link to='/Menu'>Menu</Link></li>
-        <li className='nav-li'><Link to='/Reservations'>Reservations</Link></li>
+        <li className='nav-li'><Link to='/Booking'>Reservations</Link></li>
         <li className='nav-li'><Link to='/OrderOnline'>Order online</Link></li>
         <li className='nav-li'><Link to='/LogIn'>Log in</Link></li>
       </ul>
