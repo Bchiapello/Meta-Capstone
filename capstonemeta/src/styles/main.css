@@ -35,6 +35,14 @@
   padding: 10px ;
   margin: 10px 0;
 }
+
+.weekspecial button:hover {
+  background-color:  #495E57;
+  color: #F4CE14;
+  transition: 0.5s all ease;
+  border: 1px solid #F4CE14;
+}
+
 .weekspecialcardscontainer {
   display: flex;
   flex-direction: row;
@@ -100,6 +108,7 @@ height: 120px;}
   background-color:  #495E57;
   color: #F4CE14;
   transition: 0.5s all ease;
+  border: 2px solid #F4CE14;
 }
 
 .cardinfo svg {
